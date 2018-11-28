@@ -9,7 +9,7 @@ class Tests {
     @Test
     @Tag("Example")
     fun sqr() {
-        assertEquals(0, sqr(0))
+        assertEquals(0 , sqr(0))
         assertEquals(4, sqr(2))
         assertEquals(9, sqr(-3))
     }
